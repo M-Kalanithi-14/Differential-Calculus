@@ -104,7 +104,7 @@ print(dc.differentiate(func))
 
 <a name='pointDiff'>
 
-### 3. Differentiation of a Function at a particular point :-
+### 2. Differentiation of a Function at a particular point :-
 </a>
 
 a) **Differentiate sin(x) at x=π/2** _Result Should be 0_
