@@ -23,16 +23,24 @@ $ python3 -m pip install DiffCalculus
 ```
 
 ## Quick Guide
+***Please Read Till the End***
+
 - Import the module using `import diffcalculus as dc`.
 - `diffcalculus.functions.*` contains all the differentiable functions.
-- `diffcalculus.differentiate()` differentiates the given function with respect to the variable x. Please Refer to [Differentiation of Functions](#simpleDiff)
-- `diffcalculus.differentiateAtPoint()` differentiates the given function with respect to the variable x at the given point. Please Refer to [Differentiation of a Function at a particular point](#pointDiff)
-- `diffcalculus.substitute` substitutes the given value for the variable x in the given function. Please Refer to [\'substitute\' Function Implementation](#subs)
+	- For functions of roots of x, please use `diffcalculus.functions.x(<exponent>)`, like
+		- `diffcalculus.functions.x()` creates a **sqrt(x)** function.
+		- `diffcalculus.functions.x(0.34)` creates a **cbrt(x)** function.
+
+- `diffcalculus.differentiate()` differentiates the given function with respect to the variable x. Please Refer to [Differentiation of Functions](#simpleDiff) below.
+- `diffcalculus.differentiateAtPoint()` differentiates the given function with respect to the variable x at the given point. Please Refer to [Differentiation of a Function at a particular point](#pointDiff) below.
+- `diffcalculus.substitute` substitutes the given value for the variable x in the given function. Please Refer to [\'substitute\' Function Implementation](#subs) below.
 - `diffcalculus.errors.*` contains all the Exceptions, which may occur during calculation.
 
 ## Sample Implementations
 ***Please Note :- Differentiation of all the functions happens with respect to the variable x only.***
+
 <a name='simpleDiff'>
+
 ### 1. Differentiation of Functions :-
 </a>
 
