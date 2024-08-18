@@ -97,7 +97,7 @@ import diffcalculus as dc
 
 sin = dc.functions.sin()
 cos = dc.functions.cos()
-func = a+b
+func = sin + cos
 
 print(dc.differentiate(func))
 ```
